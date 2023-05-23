@@ -32,3 +32,14 @@ In this tutorial, we are going to cover:
 - Inference with trained model
 
 ## 🔥 Let's begin! 
+
+
+
+## Inference with pre-trained COCO model
+
+Start by instantiating a pretrained model. YOLO-NAS architecture comes in three different sizes: `yolo_nas_s`, `yolo_nas_m`, `and yolo_nas_l`. We will use `yolo_nas_l` throughout this notebook. Keep in mind that depending on your use-case your decision may be different. Take a peek at the diagram below visualizing the speed-accuracy tradeoff.
+
+<br>
+
+![YOLO-NAS](https://raw.githubusercontent.com/Deci-AI/super-gradients/master/documentation/source/images/yolo_nas_frontier.png)
+
